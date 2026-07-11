@@ -22,7 +22,7 @@ The dataset includes:
 - Training enrollment and job change status
 
 
-
+## Architecture
 
 <img width="165" height="488" alt="image" src="https://github.com/user-attachments/assets/db180542-6de2-4445-8015-409f270bfea7" />
 
