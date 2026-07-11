@@ -3,7 +3,13 @@
 ![image](https://github.com/user-attachments/assets/fba35d28-afd0-4314-9270-7d7ad3105853)
 
 
-A company specializing in Big Data and Data Science runs training programs to prepare potential candidates for data-related roles. While many individuals participate, not all intend to work for the company after training.
+## Business Problem
+
+A data science training company collects learner information from multiple independent systems including Google Sheets, Excel, CSV, MySQL databases, and web sources.
+
+Because these datasets are stored separately, analysts face challenges such as inconsistent formats, missing values, and fragmented reporting.
+
+The objective of this project is to automate the ETL process and prepare a clean analytical dataset for downstream HR analytics.
 
 ## Project Overview
 
@@ -373,6 +379,12 @@ function runETL() {
 Set up a trigger to run runETL() daily via:
 ```
 Triggers → Add Trigger → Time-based → e.g., every day at 9am
+
+## Repository Purpose
+
+This repository demonstrates practical ETL implementation for Data Analytics.
+
+The focus is on preparing clean, integrated data from multiple operational sources to support downstream reporting and analytical applications.
 
 
 
