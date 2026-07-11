@@ -358,6 +358,14 @@ tables_to_save = [
 
 save_to_sql(tables_to_save)
 ```
+## Project Highlights
+
+- Integrated data from **5 heterogeneous data sources**
+- Processed approximately **19,000 enrollee records**
+- Automated ETL workflow using Python
+- Loaded cleaned datasets into SQLite
+- Refactored ETL logic into reusable functions
+  
 # How to Schedule the Script using Google Colab and Google Drive
 
 To automate the ETL process, you can run the script regularly using **Google Colab + Google Drive**:
