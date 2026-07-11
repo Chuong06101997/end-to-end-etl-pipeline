@@ -21,7 +21,7 @@ The dataset includes:
 - Work experience
 - Training enrollment and job change status
 
-![image](https://github.com/user-attachments/assets/51249091-11a9-4911-9b12-db23ede8eecf)
+
 
 
 Google Sheets
