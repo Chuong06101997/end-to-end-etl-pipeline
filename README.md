@@ -23,9 +23,22 @@ Because these datasets are maintained separately, analysts face challenges such 
 
 The objective of this project is to automate the ETL process, improve data quality, and prepare an integrated dataset that supports HR analytics and employment analysis.
 ---
+---
+# Architecture
 
 <img width="562" height="461" alt="image" src="https://github.com/user-attachments/assets/e7ce7c8c-337c-4b44-a9fc-7d58a4818249" />
 
+# Technologies
+- Python
+- Pandas
+- SQLAlchemy
+- MySQL
+- SQLite
+- Google Sheets
+- Excel
+- CSV
+- HTML Web Scraping
+---
 ## Data Sources
 ### 1. Enrollies' data
 As enrollies are submitting their request to join the course via Google Forms, we have the Google Sheet that stores data about enrolled students, containing the following columns:
