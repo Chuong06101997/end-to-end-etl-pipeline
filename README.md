@@ -2,15 +2,6 @@
 ## Introduction
 ![image](https://github.com/user-attachments/assets/fba35d28-afd0-4314-9270-7d7ad3105853)
 
-
-## Business Problem
-
-A data science training company collects learner information from multiple independent systems including Google Sheets, Excel, CSV, MySQL databases, and web sources.
-
-Because these datasets are stored separately, analysts face challenges such as inconsistent formats, missing values, and fragmented reporting.
-
-The objective of this project is to automate the ETL process and prepare a clean analytical dataset for downstream HR analytics.
-
 ## Project Overview
 
 This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline that integrates HR data from multiple heterogeneous sources into a centralized SQLite database for downstream analytics and reporting.
@@ -20,6 +11,16 @@ The dataset includes:
 - Education and major discipline
 - Work experience
 - Training enrollment and job change status
+  
+## Business Problem
+
+A data science training company collects learner information from multiple independent systems including Google Sheets, Excel, CSV, MySQL databases, and web sources.
+
+Because these datasets are stored separately, analysts face challenges such as inconsistent formats, missing values, and fragmented reporting.
+
+The objective of this project is to automate the ETL process and prepare a clean analytical dataset for downstream HR analytics.
+
+
 
 
 ## Architecture
@@ -118,7 +119,7 @@ Database credentials:
 `Database name: company_course`
 
 `Table name: employment`
-# ELT Process
+# ETL Process
 ## Import Libraries
 ```
 import pandas as pd
@@ -361,9 +362,9 @@ save_to_sql(tables_to_save)
 ## Project Highlights
 
 - Integrated data from **5 heterogeneous data sources**
-- Processed approximately **19,000 enrollee records**
+- Processed approximately 20,000 enrollee records
 - Automated ETL workflow using Python
-- Loaded cleaned datasets into SQLite
+- Loaded transformed datasets into SQLite using SQLAlchemy
 - Refactored ETL logic into reusable functions
   
 # How to Schedule the Script using Google Colab and Google Drive
