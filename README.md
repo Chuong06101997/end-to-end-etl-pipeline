@@ -23,6 +23,7 @@ The dataset includes:
 
 ![image](https://github.com/user-attachments/assets/51249091-11a9-4911-9b12-db23ede8eecf)
 
+
 Google Sheets
       │
 Excel ───────┐
@@ -41,6 +42,7 @@ SQLite Database
       │
       ▼
 Analytics
+
 
 ## Data Description
 ### 1. Enrollies' data
