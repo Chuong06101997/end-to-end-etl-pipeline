@@ -23,6 +23,7 @@ Because these datasets are maintained separately, analysts face challenges such 
 
 The objective of this project is to automate the ETL process, improve data quality, and prepare an integrated dataset that supports HR analytics and employment analysis.
 ---
+
 <img width="562" height="461" alt="image" src="https://github.com/user-attachments/assets/e7ce7c8c-337c-4b44-a9fc-7d58a4818249" />
 
 ## Data Sources
