@@ -2,11 +2,28 @@
 
 An end-to-end ETL pipeline that integrates HR analytics data from multiple heterogeneous sources into a unified analytical database for downstream reporting and analysis.
 
+
 ## Project Overview
 
-This project demonstrates the implementation of an end-to-end ETL (Extract, Transform, Load) pipeline using Python.
+This project demonstrates the implementation of an end-to-end ETL (Extract, Transform, Load) pipeline for HR Analytics.
 
-The objective is to consolidate employee and training data from multiple data sources into a centralized database suitable for analytics and reporting.
+The pipeline integrates data from multiple heterogeneous sources into a centralized SQLite analytical database, creating a clean and consistent dataset for downstream reporting, business analysis, and predictive modeling.
+
+This project was completed as part of the Swiss Coding Academy Data Analytics Program.
+# Business Problem
+
+A data science training company collects learner information from multiple independent systems, including Google Sheets, Excel files, CSV files, MySQL databases, and web sources.
+
+Because these datasets are maintained separately, analysts face challenges such as:
+
+- Inconsistent data formats
+- Missing values
+- Duplicate information
+- Fragmented reporting
+
+The objective of this project is to automate the ETL process, improve data quality, and prepare an integrated dataset that supports HR analytics and employment analysis.
+---
+<img width="562" height="461" alt="image" src="https://github.com/user-attachments/assets/e7ce7c8c-337c-4b44-a9fc-7d58a4818249" />
 
 ## Data Sources
 ### 1. Enrollies' data
